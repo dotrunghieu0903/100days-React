@@ -18,6 +18,12 @@ const content = [
     "Official web page (react.dev)",
     "Next.js (Fullstack framework)",
     "React Native (build native mobile apps with React)"
+  ],
+  [
+    "Vanilla JavaScript requires imperative programming",
+    "Imperative Programming: You define all the steps needed to achieve a result",
+    "React on the other hand embraces declarative programming",
+    "With React, you define the goal and React figures out how to get there"
   ]
 ];
 
@@ -38,6 +44,7 @@ function App() {
           <button className = {activeContentIndex === 0 ? "active": ""} onClick={() => setActiveContentIndex(0)}>Why React?</button>
           <button className = {activeContentIndex === 1 ? "active": ""} onClick={() => setActiveContentIndex(1)}>Core Features</button>
           <button className = {activeContentIndex === 2 ? "active": ""} onClick={() => setActiveContentIndex(2)}>Related Resources</button>
+          <button className = {activeContentIndex === 3 ? "active": ""} onClick={() => setActiveContentIndex(3)}>Vanilla JS vs React</button>
         </menu>
         <div id="tab-content">
           <ul>
