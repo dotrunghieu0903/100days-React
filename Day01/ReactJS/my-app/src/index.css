@@ -41,7 +41,7 @@ header h1 {
 
 header p {
   margin: 0;
-  color: #dbd7b1;
+  color: #82c2ce;
 }
 
 #tabs menu {
@@ -54,7 +54,7 @@ header p {
 #tabs button {
   background-color: #282f33;
   color: #e0eff1;
-  border-bottom-color: #f3e248;
+  border-bottom-color: #48d9f3;
   border: none;
   padding: 0.5rem 1rem;
   cursor: pointer;
@@ -67,6 +67,6 @@ header p {
 
 #tabs button:hover,
 #tabs button.active {
-background-color: #f3e248;
+background-color: #48d9f3;
 color: #273133;
 }
